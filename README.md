@@ -16,6 +16,7 @@ the home page of keycloak: [Keycloak download page](https://www.keycloak.org/dow
 5. In the top left corner, choose "create realm", and create a realm called: "chat-app-realm".
 6. Import the settings from *realm-import.json* provided in this project.
 7. Add two new users: "johan", and "tinus". Choose a password of your choosing.
+8. Edit the new users to give them both the role "USER" in the tab "ROLE MAPPINGS"
 
 #### Building the backend
 
@@ -29,7 +30,6 @@ the home page of keycloak: [Keycloak download page](https://www.keycloak.org/dow
 3. Open a browser and navigate to [localhost:3000](http://lcoalhost:3000)
 4. Open another browser and navigate to [localhost:3000](http://lcoalhost:3000)
 5. Login with *johan* in the one browser, and with *tinus* in the other browser.
-6. Edit the new users to give them both the role "USER" in the tab "ROLE MAPPINGS"
 
 Send some messages to one another. After that watch what will happen if you restart the backend.
 The browsers should reconnect automatically.
