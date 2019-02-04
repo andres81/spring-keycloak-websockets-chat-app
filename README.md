@@ -1,11 +1,11 @@
-#Spring security Websocket chat application with Keycloak and ReactJS
+# Spring security Websocket chat application with Keycloak and ReactJS
 ## Demonstration of how to secure Spring Websockets with Keycloak
 
-###Running the application
+### Running the application
 
 #### Prerequisites
 
-#####Keycloak installation
+##### Keycloak installation
 The app has been tested with Keycloak version 4.8.3. Download this version or later from
 the home page of keycloak: [Keycloak download page](https://www.keycloak.org/downloads.html)
 
